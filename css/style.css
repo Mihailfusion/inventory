@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(24, 21, 21);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+h1 {
+  margin: 0;
+  padding: 10px;
+  color: chocolate;
+  text-align: center;
+  display: block;
+}
+
+/* .search {
+
+} */
+
+.search_input {
+  height: 25px;
+  margin: 0;
+  padding-left: 10px;
+  outline: none;
+}
+.search_button {
+  height: 31px;
+  margin: 0;
+}
+
+.main {
+  background: #0f282e;
+  height: 100%;
+  width: 100%;
+  color: rgb(172, 172, 172) ;
+  display: flex;
+  justify-content: center;
+  
+}
+.container {
+  padding: 15px;
+  /* border: 2px solid #1c6172; */
+  width: 1140px;
+  position: relative;
+  
+}
+.box { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+h3 {
+  text-align: center;
+  margin: 0;
+  /* font-size: 25px; */
+}
+
+
+dl {
+  border: 1px solid rgba(97, 96, 96, 0.445);
+  width: 45%;
+}
+dt {
+  margin: 5px;
+  text-transform: uppercase;
+}
+dd {
+  padding: 2px;
+  border-bottom: 1px solid #111;
+  display: flex;
+  justify-content: space-between;
+}
+dd h5 {
+  margin: 0;
+  padding: 6px;
+  width: 140px;
+  background-color: #18101056;
+  display: block;
+}
+dd b {
+  display: block;
+  padding-right: 40px;
+}
+
+
+
+/* ввод  */
+
+.form {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+b {
+  display: block;
+  width: 150px;
+  padding-top: 10px;
+  float: left;
+  
+}
+.input {
+  outline: none;
+  display: inline-block;
+  padding: 2px;
+  margin-top: 5px;
+  /* margin-bottom: 5px; */
+}
+.label {
+  text-decoration: underline;
+  font-weight: 600;
+  color: rgb(221, 221, 221);
+  font-size: 17px;
+  /* margin-top: 20px; */
+  /* padding-top: 10px; */
+}
+
+
+
+.add {
+  position: absolute;
+  margin-top: 30px;
+  right: 30px;
+  height: 40px;
+  width: 120px;
+  color: #303030;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgb(197, 84, 18);
+  border: none;
+}
